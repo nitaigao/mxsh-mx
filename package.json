@@ -4,9 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "PORT=2225 WEB_HOOK=http://localhost:5000/incoming yarn start"
   },
   "dependencies": {
     "mailin": "^3.0.3"
+  },
+  "devDependencies": {
+    "smtp-test": "^0.1.0"
   }
 }
