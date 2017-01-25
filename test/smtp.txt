@@ -1,0 +1,6 @@
+EHLO mxsh.io
+MAIL FROM:<sender@example.com>
+RCPT TO:<recipient@example.com>
+DATA
+Hello World!
+.

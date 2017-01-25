@@ -5,10 +5,11 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "dev": "PORT=2225 WEB_HOOK=http://localhost:5000/incoming yarn start"
+    "dev": "PORT=2225 WEB_HOOK=http://localhost:4000/incoming yarn start"
   },
   "dependencies": {
-    "mailin": "^3.0.3"
+    "mailin": "^3.0.3",
+    "nodemailer-cli": "^2.1.1"
   },
   "devDependencies": {
     "smtp-test": "^0.1.0"
