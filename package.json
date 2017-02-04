@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "mailin": "^3.0.3",
-    "nodemailer-cli": "^2.1.1"
+    "nodemailer-cli": "^2.1.1",
+    "raven": "^1.1.1"
   },
   "devDependencies": {
     "smtp-test": "^0.1.0"
